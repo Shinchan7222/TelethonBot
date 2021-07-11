@@ -1,5 +1,4 @@
 from telethon import TelegramClient, events
-from telethon.tl.functions.messages import ChatInviteRequest as Get
 import asyncio
 
 client = TelegramClient("bspam", API_ID, API_HASH).start(BOT_TOKEN=token)
